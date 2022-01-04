@@ -1,38 +1,103 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap');
+*{
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    padding: 0;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#heroID{
+width: 100%;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+#aboutID{
+    
+    width: 90%;
+    /* color: #383838;
+    color: #3a3735; */
+    
+    margin-top: 50px;
+    }
+
+#resumeID{
+    font-size: 1em;
+    margin-top: 15px;
+    
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+#skilsID{
+    background-color: #333333;
+    width: 100%;
+    margin-top: 50px;
+    padding: 25px;
+    box-sizing: border-box;
 }
 
-.App-link {
-  color: #61dafb;
+#skilsContentID{
+    padding-right: 100px;
+    padding-left: 100px;
+    width: 100%;
+    text-align: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#progressId{
+    background: #ffffff !important;
+}
+
+.progress{
+    height: 250px;
+}
+
+#bar {
+    height: 50px;
+}
+
+#bar .progress-bar{
+    background-color: #acacac;
+}
+
+#labelId{
+    background-color: #6e6e6e !important;
+    color: #ffffff;
+    font-size: 2em;
+}
+
+#skillsFocus{
+    display: inline-block;
+    align-self: center;
+    text-align: center;
+}
+
+#skilsdivID{
+    display: inline-block;
+    align-self: center;
+    text-align: center;
+    justify-content: center;
+}
+
+#cardID{
+    color: #ffffff;
+    font-size: 2em;
+    margin-top: 100px;
+    width: 300px;
+    height: 300px;
+}
+
+#footerID{
+    background-color: black;
+    margin-top: 100px;
+    padding: 20px;
+}
+
+#PortfolioID{
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#cardcenterID{
+    position: relative;
+    justify-content: center;
+    margin-top: 100px;
+    text-align: center;
+    align-items: center;
+    
 }
